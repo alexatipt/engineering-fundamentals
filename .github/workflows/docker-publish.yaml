@@ -1,8 +1,8 @@
 name: Build and Publish Docker Image
 
 on:
+  push:
   pull_request:
-    types: [closed]
 
 jobs:
   build-and-push:
